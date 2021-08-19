@@ -51,7 +51,7 @@ double MJD;
         } else {
             y = D - 4715;
         }
-
+ int year=y;
 
     }
 }
