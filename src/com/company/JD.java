@@ -26,8 +26,7 @@ this.timezone=timezone;
        }
         A= (int)(year / 100);
         b=2 - A + (int)(A / 4);
-        JD=( (int)(365.25 * (year + 4716)) + (int)
-        (30.6001 * (month  + 1)) + day + b + ((hour + min / 60 + sec / 3600) / 24) - 1524.5)-(timezone / 24);
-       
+        JD=( (int)(365.25 * (year + 4716)) + (int)(30.6001 * (month  + 1)) + day + b + ((hour + min / 60 + sec / 3600) / 24) - 1524.5)-(timezone / 24);
+     return;
     }
 }

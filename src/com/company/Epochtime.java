@@ -16,5 +16,6 @@ public class Epochtime {
        date=Double.parseDouble(String.valueOf(dateserial)) + day - 1;
        UT=epoch - ept;
        double Epochtime=UT;
+       return;
    }
 }

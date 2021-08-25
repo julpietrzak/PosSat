@@ -1,9 +1,15 @@
 package com.company;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 public class JD_KG {
 double MJD;
 
-    public JD_KG(double MJD) {
+    public JD_KG(double j) {
+    }
+
+    public LocalDate JD_KG(double MJD) {
         this.MJD=MJD;
 
         double jd;
@@ -51,7 +57,11 @@ double MJD;
         } else {
             y = D - 4715;
         }
- int year=y;
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy MM dd HH mm SS.sss");
+        String date = String.valueOf((y +" " + m +" " + day +" " +  h +" " +  min+" " +  sec));
+        
+        LocalDate parsedDate = LocalDate.parse(date, formatter);
 
+        return parsedDate;
     }
 }

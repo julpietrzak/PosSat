@@ -16,5 +16,6 @@ public class wyciag_date {
         j = ed + ez + 2415018.5;
         JD_KG jdkg= new JD_KG(j);
 
+
     }
 }
