@@ -6,53 +6,53 @@ import static java.lang.Math.sqrt;
 public class Main {
 
     public static void main(String[] args) {
-        double liczba;
-        String napis;
-        int r, m, d, h, min;
-        double s;
-        int b3, b4, b5, b6, b7, b8, b9; //daty
-        double b10, b11;// pozycje geogr
-        double d4, d5, d6, d7, d8, d9, d10, d11, d12, d13; //dane satelity
-        Epochdate d15; //OBLICZENIA
-        double d16;
-        double d17;
-        double d18;
-        double d19;
-        double d20;
-        double d21;
-        double d22;
-        double d23;
-        double d24;
-        double d25;
-        double d26;
-        double d27;
-        double d28;
-        double d29, d30, d31, d32, d33, d34, d35, d36, d37, d38, d39, d40;//OBLICZENIA
-        double d41, d42, d43, d44, d45, d47, d48, d49, d50;//OBLICZENIA
-        double erdradius = 6378.13649;
-
-        b3 = 2007; //{rok}
-        b4 = 2;   //{miesiac}
-        b5 = 22;  //{dzien}
-        b6 = 16;  //{godzina}
-        b7 = 38;  //{minuta}
-        b8 = 11;  //{sek}
-        b9 = 1;   //{strefa}
-
-
-        d4 = 0.00020498; //przykładowe dla iSS - więcej http//cybermoon.w.interia.pl
-        d5 = 7052.33212;
-        d6 = 51.6376;
-        d7 = 342.7142;
-        d8 = 0.002094;
-        d9 = 231.8013;
-        d10 = 274.4852;
-        d11 = 15.78561427;
-        d12 = 47247;
-
-
-        d15 = new Epochdate(d5); //{Epoch datum}
-        System.out.println(d15);
+//        double liczba;
+//        String napis;
+//        int r, m, d, h, min;
+//        double s;
+//        int b3, b4, b5, b6, b7, b8, b9; //daty
+//        double b10, b11;// pozycje geogr
+//        double d4, d5, d6, d7, d8, d9, d10, d11, d12, d13; //dane satelity
+//        Epochdate d15; //OBLICZENIA
+//        double d16;
+//        double d17;
+//        double d18;
+//        double d19;
+//        double d20;
+//        double d21;
+//        double d22;
+//        double d23;
+//        double d24;
+//        double d25;
+//        double d26;
+//        double d27;
+//        double d28;
+//        double d29, d30, d31, d32, d33, d34, d35, d36, d37, d38, d39, d40;//OBLICZENIA
+//        double d41, d42, d43, d44, d45, d47, d48, d49, d50;//OBLICZENIA
+//        double erdradius = 6378.13649;
+//
+//        b3 = 2007; //{rok}
+//        b4 = 2;   //{miesiac}
+//        b5 = 22;  //{dzien}
+//        b6 = 16;  //{godzina}
+//        b7 = 38;  //{minuta}
+//        b8 = 11;  //{sek}
+//        b9 = 1;   //{strefa}
+//
+//
+//        d4 = 0.00020498; //przykładowe dla iSS - więcej http//cybermoon.w.interia.pl
+//        d5 = 7052.33212;
+//        d6 = 51.6376;
+//        d7 = 342.7142;
+//        d8 = 0.002094;
+//        d9 = 231.8013;
+//        d10 = 274.4852;
+//        d11 = 15.78561427;
+//        d12 = 47247;
+//
+//
+//        d15 = new Epochdate(d5); //{Epoch datum}
+//        System.out.println(d15);
 //        d16 = Double.parseDouble(String.valueOf(new Epochtime(d5))); //{Epoch zeit - czas}
 //
 //
