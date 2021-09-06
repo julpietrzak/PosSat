@@ -53,7 +53,7 @@ public class PosSat {
         d12 = 47247;
 
 
-        //d15 = new Epochdate(d5); //{Epoch datum}
+
         int ept = (int) (d5);
         int eptj = (int) (ept / 1000);
         int year = (int) floor(2000 + eptj);  //trunc(2000+eptj)  trunc(x):={⌊x⌋ if x≥0 (Math.floor) ⌈x⌉ if x<0 (Math.ceil)
@@ -79,7 +79,7 @@ public class PosSat {
         System.out.println(d15);
 
 
-        // d16 =  Epochtime(d5); //{Epoch zeit - czas}
+
         ept = (int) (d5);
         eptj = (int) (ept / 1000);
         year = (int) round(2000 + eptj);
